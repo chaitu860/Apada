@@ -1,3 +1,6 @@
+
+Apada is an react application which shows us the data related to the affected area in the form of a graph and displays the current news of that particular area.The app also provides an interface where the user can contribute to the NGO involved in the relief issues of that location. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
