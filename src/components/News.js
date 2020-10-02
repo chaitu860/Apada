@@ -39,7 +39,7 @@ class News extends React.Component {
     } = this.state;
     return (
       <Container>
-        <Header as="h2" style={{ textAlign: "center", margin: 20 }}>
+        <Header as="h2" style={{ textAlign: "center", margin: 20,fontFamily :'Montserrat' }}>
           Search for Global Disaster News
         </Header>
         <SearchBar searchForTopic={this.searchForTopic} />
