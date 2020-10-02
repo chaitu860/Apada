@@ -35,13 +35,13 @@ export default function FirstTab() {
       <Image src='https://www.linkpicture.com/q/Calamity-Conscience-_-Contribute_1.png' size='medium' centered />
       <CardContent>
         <Typography variant="h3" >
-        Global deaths from natural disasters
+       <text style={{fontFamily :'Montserrat',color:'#0d1b2a'}}>Global deaths from natural disasters</text> 
         </Typography>
         <ChartDisp/>
       </CardContent>
       <br></br>
       <Typography  >
-        <i>Source:<a href='https://ourworldindata.org'>https://ourworldindata.org</a>/</i>
+        <text style={{fontFamily :'Poppins'}}>Source:<a href='https://ourworldindata.org'>https://ourworldindata.org</a>/</text>
         </Typography>
         <CardContent>
        <News/>
