@@ -1,7 +1,8 @@
 import React from 'react';
-import { Container, Header,Icon, Segment,Image, Item,Button,Feed,Dropdown,Card } from 'semantic-ui-react'
+import { Container, Header,Icon, Segment,Image, Item,Button,Feed } from 'semantic-ui-react'
 import { makeStyles } from '@material-ui/core/styles';
 import "semantic-ui-css/semantic.min.css";
+import Demo from './Map';
 
 
 
@@ -20,9 +21,7 @@ const useStyles = makeStyles({
   
 });
 
-const countryOptions = [
-  {key: 'in', value: 'in', flag: 'in', text: 'Chennai,India' }
-]
+
 
 
 export default function SecondTab() {
@@ -37,54 +36,53 @@ export default function SecondTab() {
     <Container fluid>
     <Image src='https://linkpicture.com/q/Calamity-Conscience-_-Contribute_1.png' size='medium' centered />
       <br></br>
-      <Dropdown
-    placeholder='Select Country For Localised Contacts'
-    fluid
-    search
-    selection
-    options={countryOptions} />
+   <Segment raised style={{background:'linear-gradient(to bottom right, #f9b16e, #f68080' }}> <text style={{color:'black',fontFamily :'Montserrat'}} > Your Current Location</text><br></br>  
+    <Demo/> </Segment>
+
+    
+    
 <br></br>
- <Segment raised>
+ <Segment raised style={{background:'linear-gradient(to bottom right, #f9b4ed , #adcfff' }}>
  <Feed>
         <Feed.Event>
         <Icon name='medkit' size='large' style={{margin:"10px"}} />
           <Feed.Content> 
             <Feed.Summary>
-            <a href="tel:+91-9361309533">National Emergency Number</a>  
-            </Feed.Summary>
-            Call your NEN based on your country
+            <a href="tel:112" style={{color:'black',fontFamily :'Montserrat'}}>National Emergency Number</a>  
+            </Feed.Summary >
+            <text style={{fontFamily :'Poppins'}}>Call your NEN based on your country</text>
           </Feed.Content>
-          <a  href="tel:+91-9361309533" >
+          <a  href="tel:112" >
      <Icon name='clockwise rotated call icon' size='large' style={{margin:"10px"}}  />   </a>
         </Feed.Event>
         </Feed>
  </Segment>
- <Segment raised>
+ <Segment raised style={{background:'linear-gradient(to bottom right, #f9b4ed , #adcfff' }}>
  <Feed>
         <Feed.Event>
         <Icon name='fire extinguisher icon' size='large' style={{margin:"10px"}} />
           <Feed.Content> 
             <Feed.Summary>
-            <a href="tel:+91-9789809191">Fire Station</a>
+            <a href="tel:101" style={{color:'black',fontFamily :'Montserrat'}}>Fire Station</a>
             </Feed.Summary>
-            Call the closest fire station
+            <text style={{fontFamily :'Poppins'}}>Call the closest fire station</text>
           </Feed.Content>
-          <a  href="tel:+91-9361309533" >
+          <a  href="tel:101" >
      <Icon name='clockwise rotated call icon' size='large' style={{margin:"10px"}}  />   </a>
         </Feed.Event>
         </Feed>
  </Segment>
- <Segment raised>
+ <Segment raised style={{background:'linear-gradient(to bottom right, #f9b4ed , #adcfff' }}>
  <Feed>
         <Feed.Event>
         <Icon name='ambulance' size='large' style={{margin:"10px"}} />
           <Feed.Content> 
             <Feed.Summary>
-            <a href="tel:+91-9789809191">Ambulance</a>
+            <a href="tel:102" style={{color:'black',fontFamily :'Montserrat'}}>Ambulance</a>
             </Feed.Summary>
-            Call the nearest Hospital Ambulance.
+            <text style={{fontFamily :'Poppins'}}>Call the nearest Hospital Ambulance.</text>
           </Feed.Content>
-          <a  href="tel:+91-9361309533" >
+          <a  href="tel:102" >
      <Icon name='clockwise rotated call icon' size='large' style={{margin:"10px"}}  />   </a>
         </Feed.Event>
         </Feed>
@@ -92,18 +90,18 @@ export default function SecondTab() {
 <br></br>
 
   
-<Segment raised>
+<Segment raised style={{background:'linear-gradient(to bottom right, #ff86c8 , #ffa3a5'}}>
     <Item>
       <Item.Content>
-        <Item.Header as='a'><b>Contribute</b></Item.Header>
+        <Item.Header as='a'style={{color:'black'}} ><b  style={{fontFamily :'Poppins'}}>Contribute</b></Item.Header>
         <br></br>
         <Item.Description>
-        <i> "Every contribution counts. Everyone can make a difference. Just start with yourself."</i>
+        <i style={{color:'#1c2541', fontFamily :'Poppins'}} > "Every contribution counts. Everyone can make a difference. Just start with yourself."</i>
         </Item.Description> 
         <br></br>
-           <Button icon labelPosition='left' color='black' href="https://rzp.io/l/teWsbQd">
+           <Button icon labelPosition='left' inverted  href="https://rzp.io/l/teWsbQd">
 <         Icon name='money bill alternate outline' />
-              Donate
+             <text style={{fontFamily :'Poppins'}}>Donate</text> 
             </Button>
       </Item.Content>
     </Item>
