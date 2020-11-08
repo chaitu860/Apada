@@ -1,4 +1,4 @@
-#### APADA
+# APADA
 
 Apada is a completely user-friendly application developed in the motive of helping the members affected by the natural disasters and to spread awareness regarding these disasters to the outside world.
 
