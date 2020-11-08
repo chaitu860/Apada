@@ -3,7 +3,7 @@
 Apada is a completely user-friendly application developed in the motive of helping the members affected by the natural disasters and to spread awareness regarding these disasters to the outside world.
 
 ## Developers-
-<br>
+
  - *Raswanth Rajangam* - https://www.linkedin.com/in/raswanth-rajangam-4564a41aa/
 
  - *Darshan Jain* - https://www.linkedin.com/in/darshan-j-236793121/
