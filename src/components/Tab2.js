@@ -39,6 +39,7 @@ export default function SecondTab() {
    <Segment raised style={{background:'linear-gradient(to bottom right, #f9b16e, #f68080' }}> <text style={{color:'black',fontFamily :'Montserrat'}} > Your Current Location</text><br></br>  
     <Demo/> </Segment>
 
+     <Button color='green' href='http://127.0.0.1:5000/'><text style={{fontFamily :'Poppins',color:'black'}}>Predict Risk</text> </Button>
     
     
 <br></br>
