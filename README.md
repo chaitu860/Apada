@@ -1,11 +1,14 @@
-### APADA
+#### APADA
+
+Apada is a completely user-friendly application developed in the motive of helping the members affected by the natural disasters and to spread awareness regarding these disasters to the outside world.
 
 ## Developers-
 <br>
-Raswanth Rajangam - https://www.linkedin.com/in/raswanth-rajangam-4564a41aa/
-Darshan Jain - https://www.linkedin.com/in/darshan-j-236793121/
+ - *Raswanth Rajangam* - https://www.linkedin.com/in/raswanth-rajangam-4564a41aa/
 <br>
-Apada is a react application which shows us the data related to the affected area in the form of a graph and displays the current news of that particular area.The app also provides an interface where the user can contribute to the NGO involved in the relief issues of that location. 
+ - *Darshan Jain* - https://www.linkedin.com/in/darshan-j-236793121/
+<br>
+ - *Chaitanya Vadlamannati* - https://www.linkedin.com/in/chaitanya-vadlamannati-340a88190/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
