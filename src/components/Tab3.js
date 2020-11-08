@@ -143,6 +143,22 @@ Avoid driving through flooded areas and standing water.</text>
     </Item>
     </Segment>
   </Item.Group>
+    
+    <Segment raised style={{background:'linear-gradient(to bottom right, #f9b4ed , #adcfff' }}>
+    <Item>
+      <Item.Image size='small' src="https://www.linkpicture.com/q/circle-cropped-8_1.png" />
+      <Item.Content>
+        <Item.Header style={{fontFamily :'Montserrat',color:'#33415'}}>Chaitanya Vadlamannati</Item.Header>
+        <Item.Meta style={{fontFamily :'Poppins'}}>ML Developer</Item.Meta>
+        <br></br>
+        <Item.Description>
+        <a href=''><Button icon color='black' > <Icon name='github' /> </Button></a>
+        <a href='https://www.instagram.com/deal_looser_2121/'><Button icon color='instagram'> <Icon name='instagram' /> </Button></a>
+        <a href='https://www.linkedin.com/in/chaitanya-vadlamannati-340a88190/'><Button icon color='linkedin'> <Icon name='linkedin' /> </Button></a>
+        </Item.Description>   
+      </Item.Content>
+    </Item>
+    </Segment>
 
   </div>
   );
