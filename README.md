@@ -7,11 +7,7 @@ Apada is a completely user-friendly application developed in the motive of helpi
  - *Raswanth Rajangam* - https://www.linkedin.com/in/raswanth-rajangam-4564a41aa/
 
  - *Darshan Jain* - https://www.linkedin.com/in/darshan-j-236793121/
-
- - *Chaitanya Vadlamannati* - https://www.linkedin.com/in/chaitanya-vadlamannati-340a88190/
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+ 
 ## Available Scripts
 
 Please clone the repo and run the scripts.
