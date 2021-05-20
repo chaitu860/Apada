@@ -7,6 +7,7 @@ Apada is a completely user-friendly application developed in the motive of helpi
  - *Raswanth Rajangam* - https://www.linkedin.com/in/raswanth-rajangam-4564a41aa/
 
  - *Darshan Jain* - https://www.linkedin.com/in/darshan-j-236793121/
+ - *Chaitanya* - https://in.linkedin.com/in/chaitanya-v-340a88190/
  
 ## Available Scripts
 
